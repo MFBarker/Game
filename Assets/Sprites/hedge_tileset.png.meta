@@ -1,0 +1,1466 @@
+fileFormatVersion: 2
+guid: ad9ecfa3e086b004396e714962e68be3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2477692780754096522
+    second: hedge_tileset_0
+  - first:
+      213: 3794150644383294296
+    second: hedge_tileset_1
+  - first:
+      213: -8652914605300713128
+    second: hedge_tileset_2
+  - first:
+      213: -3415451351106627443
+    second: hedge_tileset_3
+  - first:
+      213: -2490028239454924222
+    second: hedge_tileset_4
+  - first:
+      213: -2175633143950131261
+    second: hedge_tileset_5
+  - first:
+      213: 8015002806261000175
+    second: hedge_tileset_6
+  - first:
+      213: 7688204202034976355
+    second: hedge_tileset_7
+  - first:
+      213: -7729467807963476590
+    second: hedge_tileset_8
+  - first:
+      213: 5911686902595921186
+    second: hedge_tileset_9
+  - first:
+      213: -2149100149204067142
+    second: hedge_tileset_10
+  - first:
+      213: -1948170239669464676
+    second: hedge_tileset_11
+  - first:
+      213: -5384453884231793741
+    second: hedge_tileset_12
+  - first:
+      213: 7949524037450888806
+    second: hedge_tileset_13
+  - first:
+      213: -795079911958924267
+    second: hedge_tileset_14
+  - first:
+      213: -8037171104181435561
+    second: hedge_tileset_15
+  - first:
+      213: 938455810684460544
+    second: hedge_tileset_16
+  - first:
+      213: 7936686064042459180
+    second: hedge_tileset_17
+  - first:
+      213: -5645027021758351195
+    second: hedge_tileset_18
+  - first:
+      213: 7194607614201632745
+    second: hedge_tileset_19
+  - first:
+      213: -6755453970199805468
+    second: hedge_tileset_20
+  - first:
+      213: 4284977183993487454
+    second: hedge_tileset_21
+  - first:
+      213: 2831991934141556240
+    second: hedge_tileset_22
+  - first:
+      213: 3878091150703745924
+    second: hedge_tileset_23
+  - first:
+      213: -702311481371844412
+    second: hedge_tileset_24
+  - first:
+      213: -1637172073327573149
+    second: hedge_tileset_25
+  - first:
+      213: 3236221255572812651
+    second: hedge_tileset_26
+  - first:
+      213: 4810498020116548209
+    second: hedge_tileset_27
+  - first:
+      213: 5423651628120122992
+    second: hedge_tileset_28
+  - first:
+      213: 7715241117668195385
+    second: hedge_tileset_29
+  - first:
+      213: 1368171208059450752
+    second: hedge_tileset_30
+  - first:
+      213: -5204851087891167701
+    second: hedge_tileset_31
+  - first:
+      213: 5939425089296885581
+    second: hedge_tileset_32
+  - first:
+      213: -4847053723578216960
+    second: hedge_tileset_33
+  - first:
+      213: -2813414467359975143
+    second: hedge_tileset_34
+  - first:
+      213: -5282939294939568718
+    second: hedge_tileset_35
+  - first:
+      213: -2140077684175666510
+    second: hedge_tileset_36
+  - first:
+      213: 7918431660708801088
+    second: hedge_tileset_37
+  - first:
+      213: -4637333293928350396
+    second: hedge_tileset_38
+  - first:
+      213: 9190887068006079156
+    second: hedge_tileset_39
+  - first:
+      213: -3138717296404684872
+    second: hedge_tileset_40
+  - first:
+      213: -2977207631076512665
+    second: hedge_tileset_41
+  - first:
+      213: -563956059860621082
+    second: hedge_tileset_0
+  - first:
+      213: 8223864027539982109
+    second: hedge_tileset_1
+  - first:
+      213: -6222417637650462794
+    second: hedge_tileset_2
+  - first:
+      213: 7921604628600270905
+    second: hedge_tileset_3
+  - first:
+      213: 2705806712937431172
+    second: hedge_tileset_4
+  - first:
+      213: 2195245285894875376
+    second: hedge_tileset_5
+  - first:
+      213: -4885593258196479073
+    second: hedge_tileset_6
+  - first:
+      213: -1548851145505716898
+    second: hedge_tileset_7
+  - first:
+      213: 1347479538345185471
+    second: hedge_tileset_8
+  - first:
+      213: -6399571769040457041
+    second: hedge_tileset_9
+  - first:
+      213: -4471626134639217919
+    second: hedge_tileset_10
+  - first:
+      213: -4568510379647012454
+    second: hedge_tileset_11
+  - first:
+      213: 1638126439939400100
+    second: hedge_tileset_12
+  - first:
+      213: -8404764065861255573
+    second: hedge_tileset_13
+  - first:
+      213: -759185573803751765
+    second: hedge_tileset_14
+  - first:
+      213: -3535475810890171074
+    second: hedge_tileset_15
+  - first:
+      213: 1916885016264348485
+    second: hedge_tileset_16
+  - first:
+      213: 2211997734650924965
+    second: hedge_tileset_17
+  - first:
+      213: -1066434970001406555
+    second: hedge_tileset_18
+  - first:
+      213: -6284371619928940383
+    second: hedge_tileset_19
+  - first:
+      213: -4047235227079144109
+    second: hedge_tileset_20
+  - first:
+      213: -8213361888603626141
+    second: hedge_tileset_21
+  - first:
+      213: 7373933502955411517
+    second: hedge_tileset_22
+  - first:
+      213: 1347047870756630053
+    second: hedge_tileset_23
+  - first:
+      213: -4946072411683179785
+    second: hedge_tileset_24
+  - first:
+      213: 6899003680780490781
+    second: hedge_tileset_25
+  - first:
+      213: 4822747867533303085
+    second: hedge_tileset_26
+  - first:
+      213: 4800650789468872994
+    second: hedge_tileset_27
+  - first:
+      213: -7822839079922068800
+    second: hedge_tileset_28
+  - first:
+      213: 7584735280773018694
+    second: hedge_tileset_29
+  - first:
+      213: -5896873373151377390
+    second: hedge_tileset_30
+  - first:
+      213: 5614068237471240389
+    second: hedge_tileset_31
+  - first:
+      213: 6232684505759316092
+    second: hedge_tileset_32
+  - first:
+      213: 3205101329804511738
+    second: hedge_tileset_33
+  - first:
+      213: 7051968966455792962
+    second: hedge_tileset_34
+  - first:
+      213: 3834790842301356437
+    second: hedge_tileset_35
+  - first:
+      213: -8020424456574657507
+    second: hedge_tileset_36
+  - first:
+      213: -7443444722316162846
+    second: hedge_tileset_37
+  - first:
+      213: -438920763939645622
+    second: hedge_tileset_38
+  - first:
+      213: 2274398267792606537
+    second: hedge_tileset_39
+  - first:
+      213: -6902402568752489401
+    second: hedge_tileset_40
+  - first:
+      213: 5049015673989716908
+    second: hedge_tileset_41
+  - first:
+      213: -6146152932688665603
+    second: hedge_tileset_42
+  - first:
+      213: 5819965788575853810
+    second: hedge_tileset_43
+  - first:
+      213: 1811000763032302561
+    second: hedge_tileset_44
+  - first:
+      213: -8729714117840517395
+    second: hedge_tileset_45
+  - first:
+      213: -4140175159836314836
+    second: hedge_tileset_46
+  - first:
+      213: -4030346269684990966
+    second: hedge_tileset_47
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hedge_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8241793fc6c28f0800000000000000
+      internalID: 2477692780754096522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1742aad2c8012270800000000000000
+      internalID: 3794150644383294296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b708b7502885a9a0800000000000000
+      internalID: -8652914605300713128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9303fc270713fed60800000000000000
+      internalID: -3415451351106627443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480c0839ed4fc8520800000000000000
+      internalID: -2490028239454924222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f86d94e4f3177e10800000000000000
+      internalID: -2175633143950131261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93d72011d2e23cb0800000000000000
+      internalID: 8015002806261000175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55cc2ed610618ae0800000000000000
+      internalID: 7688204202034976355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb01c29308533b210800000000000000
+      internalID: -7729467807963476590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b9b7e1672037a0800000000000000
+      internalID: 5911686902595921186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f974e8b791f1c0800000000000000
+      internalID: -2149100149204067142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a917474c3046990c0800000000000000
+      internalID: -1948170239669464676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a163c5615bcbb610800000000000000
+      internalID: -5384453884231793741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e3f59cc974c5b80800000000000000
+      internalID: 7949524037450888806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba683d23eb4d675f0800000000000000
+      internalID: -795079911958924267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3db7e35b777feec0800000000000000
+      internalID: -8037171104181435561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54394b524c42a9a10800000000000000
+      internalID: 938455810684460544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af46d1583892be10800000000000000
+      internalID: 7936686064042459180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a503058b034331f0800000000000000
+      internalID: -5645027021758351195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0e695ce4d69c8a0800000000000000
+      internalID: 7194607614201632745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d008f010555d7c0800000000000000
+      internalID: -6755453970199805468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365ac0ae0e6440e80800000000000000
+      internalID: 4284977183993487454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d385201c379755660800000000000000
+      internalID: 2831991934141556240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e25e7c6eca1b210800000000000000
+      internalID: 3878091150703745924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2b344d8550c5bb0800000000000000
+      internalID: -702311481371844412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1898019b4f2ebf50800000000000000
+      internalID: -1637172073327573149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d589d22a7dde240800000000000000
+      internalID: 3236221255572812651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221adf445765f9240800000000000000
+      internalID: 4810498020116548209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c29332dd41bf6390800000000000000
+      internalID: 5423651628120122992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64439dd5d84624960800000000000000
+      internalID: 7715241117668195385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2184adbf8e81a2ea0800000000000000
+      internalID: 1368171208059450752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0d64f315d29ed40800000000000000
+      internalID: -5204851087891167701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c787dda2981fe7650800000000000000
+      internalID: 5939425089296885581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af941289daeca7c20800000000000000
+      internalID: -4847053723578216960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2451dac7960add160800000000000000
+      internalID: -2813414467359975143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5991b4714f9e73530800000000000000
+      internalID: -5282939294939568718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c1306637ab1b090800000000000000
+      internalID: -2140077684175666510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8c61d467293b890800000000000000
+      internalID: 7918431660708801088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4795d404e3a8e9f0800000000000000
+      internalID: -4637333293928350396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ca8d9c29409f10800000000000000
+      internalID: 9190887068006079156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c93c82f6db530a0800000000000000
+      internalID: -3138717296404684872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab59813105b11640800000000000000
+      internalID: -2977207631076512665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3eddfa87a74baa0800000000000000
+      internalID: -6146152932688665603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc6df89c0ca4c050800000000000000
+      internalID: 5819965788575853810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e370805997f12910800000000000000
+      internalID: 1811000763032302561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de647670343d9d680800000000000000
+      internalID: -8729714117840517395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c237f02b0a42b86c0800000000000000
+      internalID: -4140175159836314836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cfa91eb655118c0800000000000000
+      internalID: -4030346269684990966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hedge_tileset_0: 2477692780754096522
+      hedge_tileset_1: 3794150644383294296
+      hedge_tileset_10: -2149100149204067142
+      hedge_tileset_11: -1948170239669464676
+      hedge_tileset_12: -5384453884231793741
+      hedge_tileset_13: 7949524037450888806
+      hedge_tileset_14: -795079911958924267
+      hedge_tileset_15: -8037171104181435561
+      hedge_tileset_16: 938455810684460544
+      hedge_tileset_17: 7936686064042459180
+      hedge_tileset_18: -5645027021758351195
+      hedge_tileset_19: 7194607614201632745
+      hedge_tileset_2: -8652914605300713128
+      hedge_tileset_20: -6755453970199805468
+      hedge_tileset_21: 4284977183993487454
+      hedge_tileset_22: 2831991934141556240
+      hedge_tileset_23: 3878091150703745924
+      hedge_tileset_24: -702311481371844412
+      hedge_tileset_25: -1637172073327573149
+      hedge_tileset_26: 3236221255572812651
+      hedge_tileset_27: 4810498020116548209
+      hedge_tileset_28: 5423651628120122992
+      hedge_tileset_29: 7715241117668195385
+      hedge_tileset_3: -3415451351106627443
+      hedge_tileset_30: 1368171208059450752
+      hedge_tileset_31: -5204851087891167701
+      hedge_tileset_32: 5939425089296885581
+      hedge_tileset_33: -4847053723578216960
+      hedge_tileset_34: -2813414467359975143
+      hedge_tileset_35: -5282939294939568718
+      hedge_tileset_36: -2140077684175666510
+      hedge_tileset_37: 7918431660708801088
+      hedge_tileset_38: -4637333293928350396
+      hedge_tileset_39: 9190887068006079156
+      hedge_tileset_4: -2490028239454924222
+      hedge_tileset_40: -3138717296404684872
+      hedge_tileset_41: -2977207631076512665
+      hedge_tileset_42: -6146152932688665603
+      hedge_tileset_43: 5819965788575853810
+      hedge_tileset_44: 1811000763032302561
+      hedge_tileset_45: -8729714117840517395
+      hedge_tileset_46: -4140175159836314836
+      hedge_tileset_47: -4030346269684990966
+      hedge_tileset_5: -2175633143950131261
+      hedge_tileset_6: 8015002806261000175
+      hedge_tileset_7: 7688204202034976355
+      hedge_tileset_8: -7729467807963476590
+      hedge_tileset_9: 5911686902595921186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
