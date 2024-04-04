@@ -30,6 +30,13 @@ public class GameManager : Singleton<GameManager>
     [Header("UI")]
     [SerializeField] GameObject Win;
     [SerializeField] GameObject Lose;
+
+    [Header("Audio")]
+    [SerializeField] AudioSource Title_Theme;
+    [SerializeField] AudioSource Tutorial_Theme;
+    [SerializeField] AudioSource Main_Theme;
+    [SerializeField] AudioSource Win_Theme;
+    [SerializeField] AudioSource Loss_Theme;
     enum State
     { 
         TITLE,
@@ -56,6 +63,10 @@ public class GameManager : Singleton<GameManager>
         switch (state)
         {
             case State.TITLE:
+                if (Title_Theme.isPlaying == false)
+                { 
+                    Title_Theme.Play();
+                }
                 UIManager.Instance.SetActive("Title", true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
@@ -77,9 +88,19 @@ public class GameManager : Singleton<GameManager>
 
                 canMove = true;
                  
-                state = State.PLAY_GAME;
+                state = State.TUTORIAL;
+                Title_Theme.Stop();
+                break;
+            case State.TUTORIAL:
+                if(Tutorial_Theme.isPlaying == false) Tutorial_Theme.Play();
+                //TEMP
+                if (Input.GetKeyDown(KeyCode.P)) state = State.PLAY_GAME;
+                
                 break;
             case State.PLAY_GAME:
+                if(Tutorial_Theme.isPlaying == true) Tutorial_Theme.Stop();
+                if(Main_Theme.isPlaying == false) Main_Theme.Play();
+
                 // game timer
                 timer.value = timer - Time.deltaTime;
                 if (timer <= 0)
@@ -88,14 +109,22 @@ public class GameManager : Singleton<GameManager>
                     state = State.GAME_OVER;
                 }
                 CheckRunes();
+                //temp
+                if (Input.GetKeyDown(KeyCode.O)) state = State.GAME_WIN;
+                if (Input.GetKeyDown(KeyCode.L)) state = State.GAME_OVER;
+
                 break;
             case State.GAME_WIN:
+                if (Win_Theme.isPlaying == false) Win_Theme.Play();
+                if (Main_Theme.isPlaying == true) Main_Theme.Stop();
                 Win.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 canMove = false;
                 break;
             case State.GAME_OVER:
+                if(Loss_Theme.isPlaying == false) Loss_Theme.Play();
+                if (Main_Theme.isPlaying == true) Main_Theme.Stop();
                 Lose.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
@@ -116,8 +145,16 @@ public class GameManager : Singleton<GameManager>
     public void BackToTitle()
     {
         ResetRunes();
-        Win.SetActive(false);
-        Lose.SetActive(false);
+        if (Win.activeSelf == true)
+        { 
+            Win.SetActive(false);
+            Win_Theme.Stop();
+        }
+        if(Lose.activeSelf == true)
+        {
+            Lose.SetActive(false);
+            Loss_Theme.Stop();
+        }
         state = State.TITLE;
     }
 
