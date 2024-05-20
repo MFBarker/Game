@@ -30,12 +30,12 @@ public class UIManager : Singleton<UIManager>
 
 	public float Timer
 	{
-		set	{ timerUI.text = string.Format("{0:F1}", value); }
+		set	{ timerUI.text = "TIME LEFT: " + string.Format("{0:F1}", value); }
 	}
 
 	public int Score
 	{
-		set { scoreUI.text = string.Format("{0:D1}", value); }
+		set { scoreUI.text = string.Format("{0:D2}:{1:F1}", (int)value/60, value % 60); }
 	}
 
 	public float Health

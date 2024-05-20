@@ -30,10 +30,11 @@ public class GameManager : Singleton<GameManager>
     [Header("UI")]
     [SerializeField] GameObject Win;
     [SerializeField] GameObject Lose;
+    [SerializeField] GameObject Controls;
+    [SerializeField] GameObject Hint;
 
     [Header("Audio")]
     [SerializeField] AudioSource Title_Theme;
-    [SerializeField] AudioSource Tutorial_Theme;
     [SerializeField] AudioSource Main_Theme;
     [SerializeField] AudioSource Win_Theme;
     [SerializeField] AudioSource Loss_Theme;
@@ -75,9 +76,6 @@ public class GameManager : Singleton<GameManager>
 
             case State.START_GAME:
                 UIManager.Instance.SetActive("Title", false);
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
-
                 // reset values
                 timer.value = 300;
                 lives.value = 3;
@@ -92,15 +90,22 @@ public class GameManager : Singleton<GameManager>
                 Title_Theme.Stop();
                 break;
             case State.TUTORIAL:
-                if(Tutorial_Theme.isPlaying == false) Tutorial_Theme.Play();
-                //TEMP
-                if (Input.GetKeyDown(KeyCode.P)) state = State.PLAY_GAME;
-                
+                if (Main_Theme.isPlaying == false) Main_Theme.Play();
+                //show controls
+                Controls.SetActive(true);
                 break;
             case State.PLAY_GAME:
-                if(Tutorial_Theme.isPlaying == true) Tutorial_Theme.Stop();
                 if(Main_Theme.isPlaying == false) Main_Theme.Play();
-
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                //hide controls
+                Controls.SetActive(false);
+                //show or hide hint
+                if (Input.GetKey(KeyCode.Tab))
+                {
+                    if (Hint.activeSelf == false) Hint.SetActive(true);
+                    else Hint.SetActive(false);
+                }
                 // game timer
                 timer.value = timer - Time.deltaTime;
                 if (timer <= 0)
@@ -230,5 +235,11 @@ public class GameManager : Singleton<GameManager>
         glow.SetActive(true);
 
         print($"{type} was activated");
+    }
+
+    public void OnPlayGame()
+    {
+        print("Play Game");
+        state = State.PLAY_GAME;
     }
 }
