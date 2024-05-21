@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using static Cinemachine.DocumentationSortingAttribute;
@@ -30,6 +31,7 @@ public class GameManager : Singleton<GameManager>
     [Header("UI")]
     [SerializeField] GameObject Win;
     [SerializeField] GameObject Lose;
+    [SerializeField] GameObject LoseMoonshine;
     [SerializeField] GameObject Controls;
     [SerializeField] GameObject Hint;
 
@@ -55,8 +57,14 @@ public class GameManager : Singleton<GameManager>
     public bool doorOpen { get; set; } = false;
     public bool allRunes { get; set; } = false;
 
+    //items lol
+    public bool drankTheMoonshine { get; set; } = false;
+
     private State state = State.TITLE;
     // Start is called before the first frame update
+
+    private List<GameObject> itemList = new List<GameObject>();
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
@@ -80,6 +88,9 @@ public class GameManager : Singleton<GameManager>
                 timer.value = 300;
                 lives.value = 3;
                 health.value = 100;
+
+                //add items
+                SpawnItem.Instance.PlaceItem();
 
                 gameStartEvent.RaiseEvent();
                 respawnEvent.RaiseEvent(respawn);
@@ -120,9 +131,6 @@ public class GameManager : Singleton<GameManager>
                 }
 
                 CheckRunes();
-                //temp
-                if (Input.GetKeyDown(KeyCode.O)) state = State.GAME_WIN;
-                if (Input.GetKeyDown(KeyCode.L)) state = State.GAME_OVER;
 
                 break;
             case State.GAME_WIN:
@@ -136,7 +144,8 @@ public class GameManager : Singleton<GameManager>
             case State.GAME_OVER:
                 if(Loss_Theme.isPlaying == false) Loss_Theme.Play();
                 if (Main_Theme.isPlaying == true) Main_Theme.Stop();
-                Lose.SetActive(true);
+                if (drankTheMoonshine) LoseMoonshine.SetActive(true);
+                else Lose.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
                 canMove = false;
@@ -147,41 +156,55 @@ public class GameManager : Singleton<GameManager>
         UIManager.Instance.Timer = timer;
     }
 
+    #region Game Logic
     public void OnStartGame()
     {
         state = State.START_GAME;
         print("Start_game");
     }
-
+    public void OnPlayGame()
+    {
+        print("Play Game");
+        state = State.PLAY_GAME;
+    }
+    /// <summary>
+    /// Resets the runes, clears out any items, hides the win/lose screen, 
+    /// and returns to the title screen.
+    /// </summary>
     public void BackToTitle()
     {
         ResetRunes();
+
+        itemList.Clear();
+
         if (Win.activeSelf == true)
         { 
             Win.SetActive(false);
             Win_Theme.Stop();
         }
-        if(Lose.activeSelf == true)
+        if(Lose.activeSelf == true || LoseMoonshine.activeSelf == true)
         {
-            Lose.SetActive(false);
+            if (drankTheMoonshine == true) 
+            {
+                drankTheMoonshine = false;
+                LoseMoonshine.SetActive(false);
+            }
+            else Lose.SetActive(false);
             Loss_Theme.Stop();
         }
         state = State.TITLE;
     }
-
-
-    public void OnPlayerDead()
-    {
-        //state = State.START_GAME;
-    }
-
     public void OnAddPoints(int points)
     {
         print(points);
         score.value += points;
     }
+    #endregion
 
-    //RUNES STUFF
+    #region Runes_Methods
+    /// <summary>
+    /// Resets the runes and win conditions for the game.
+    /// </summary>
     public void ResetRunes()
     {
         Rune_S.SetActive(false);
@@ -197,7 +220,13 @@ public class GameManager : Singleton<GameManager>
         doorOpen = false;
         Gate_Closed.SetActive(true);
         Gate_Open.SetActive(false);
+
+        allRunes = false;
     }
+
+    /// <summary>
+    /// Checks if all runes have been activated, and progress is made.
+    /// </summary>
     public void CheckRunes()
     {
         //Activate Altar
@@ -242,26 +271,56 @@ public class GameManager : Singleton<GameManager>
 
         print($"{type} was activated");
     }
+    #endregion 
 
-    public void OnPlayGame()
-    {
-        print("Play Game");
-        state = State.PLAY_GAME;
-    }
-
+    #region Items_Methods
+    /// <summary>
+    /// Instantly kills the player. Will only be called if the player drinks moonshine.
+    /// </summary>
     public void KillPlayer()
     {
         //instant kill
         health.value -= 9999;
+        drankTheMoonshine = true;
     }
 
+    /// <summary>
+    /// Subracts time from the timer.
+    /// </summary>
+    /// <param name="value">Amount of time to remove</param>
     public void TimeReduction(float value)
     {
         timer.value -= value;
     }
 
+    /// <summary>
+    /// Adds time to the timer.
+    /// </summary>
+    /// <param name="value">Amount of time to add</param>
     public void TimeAddition(float value)
     {
         timer.value += value;
     }
+
+    /*List Stuff*/
+    /// <summary>
+    /// Adds an item to the list of items.
+    /// </summary>
+    /// <param name="gameObject">The game object to add</param>
+    public void AddItemToList(GameObject gameObject)
+    { 
+        itemList.Add(gameObject);
+    }
+
+    /// <summary>
+    /// Deletes an item's game object and removes it from list of items.
+    /// </summary>
+    /// <param name="gameObject">The Game Object to Remove</param>
+    public void DeleteItem(GameObject gameObject)
+    {
+        itemList.Remove(gameObject);
+        GameObject.Destroy(gameObject);
+    }
+    #endregion
+
 }

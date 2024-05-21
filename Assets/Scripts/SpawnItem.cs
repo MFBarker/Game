@@ -1,23 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 
 
-public class SpawnItem : MonoBehaviour
+public class SpawnItem : Singleton<SpawnItem>
 {
     [SerializeField] List<GameObject> itemPrefabList;
 
     [SerializeField] List<Transform> spawnpointList;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        PlaceItem();
-    }
 
     /// <summary>
     /// Loops through all spawn points, instantiating a random item at that spawn point
@@ -29,7 +24,11 @@ public class SpawnItem : MonoBehaviour
         {
             //choose an item and spawn it at the coords
             int ranItemIndex = Random.Range(0, itemPrefabList.Count - 1);
-            GameObject.Instantiate(itemPrefabList[ranItemIndex],item);
+            GameObject itemGO = GameObject.Instantiate(itemPrefabList[ranItemIndex],item);
+            
+            GameManager.Instance.AddItemToList(itemGO);
         }
+
+        Debug.Log("Added all items");
     }
 }
