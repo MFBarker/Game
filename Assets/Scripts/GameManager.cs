@@ -113,6 +113,12 @@ public class GameManager : Singleton<GameManager>
                     canMove = false;
                     state = State.GAME_OVER;
                 }
+                if (health <= 0)
+                {
+                    canMove = false;
+                    state = State.GAME_OVER;
+                }
+
                 CheckRunes();
                 //temp
                 if (Input.GetKeyDown(KeyCode.O)) state = State.GAME_WIN;
@@ -241,5 +247,21 @@ public class GameManager : Singleton<GameManager>
     {
         print("Play Game");
         state = State.PLAY_GAME;
+    }
+
+    public void KillPlayer()
+    {
+        //instant kill
+        health.value -= 9999;
+    }
+
+    public void TimeReduction(float value)
+    {
+        timer.value -= value;
+    }
+
+    public void TimeAddition(float value)
+    {
+        timer.value += value;
     }
 }
