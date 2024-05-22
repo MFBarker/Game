@@ -14,6 +14,8 @@ public class SpawnItem : Singleton<SpawnItem>
 
     [SerializeField] List<Transform> spawnpointList;
 
+    [SerializeField] public AudioSource drinkSFX;
+
     /// <summary>
     /// Loops through all spawn points, instantiating a random item at that spawn point
     /// </summary>

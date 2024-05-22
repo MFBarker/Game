@@ -40,6 +40,9 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] AudioSource Main_Theme;
     [SerializeField] AudioSource Win_Theme;
     [SerializeField] AudioSource Loss_Theme;
+
+    [Header("SFX")]
+    [SerializeField] AudioSource doorOpenSFX;
     enum State
     { 
         TITLE,
@@ -112,7 +115,7 @@ public class GameManager : Singleton<GameManager>
                 //hide controls
                 Controls.SetActive(false);
                 //show or hide hint
-                if (Input.GetKey(KeyCode.Tab))
+                if (Input.GetKeyDown(KeyCode.Tab))
                 {
                     if (Hint.activeSelf == false) Hint.SetActive(true);
                     else Hint.SetActive(false);
@@ -254,6 +257,7 @@ public class GameManager : Singleton<GameManager>
             doorOpen = true;
             Gate_Closed.SetActive(false);
             Gate_Open.SetActive(true);
+            doorOpenSFX.Play();
         }
 
         //Check for all Runes (Game Win)

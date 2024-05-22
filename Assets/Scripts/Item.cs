@@ -65,6 +65,7 @@ public class Item : MonoBehaviour
                                 break;
                         }
                         //Delete Item After Collision and Log What You Consumed
+                        SpawnItem.Instance.drinkSFX.Play();
                         Debug.Log("You Consumed The: " + type.ToString());
                         GameManager.Instance.DeleteItem(gameObject);
                     }
