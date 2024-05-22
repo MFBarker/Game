@@ -178,7 +178,7 @@ public class GameManager : Singleton<GameManager>
     {
         ResetRunes();
 
-        itemList.Clear();
+        DeleteAllItems();
 
         if (Win.activeSelf == true)
         { 
@@ -325,6 +325,19 @@ public class GameManager : Singleton<GameManager>
         itemList.Remove(gameObject);
         GameObject.Destroy(gameObject);
     }
+
+    /// <summary>
+    /// Deletes everything in the list.
+    /// </summary>
+    public void DeleteAllItems()
+    {
+        foreach (GameObject gameObject in itemList)
+        {
+            GameObject.Destroy(gameObject);
+        }
+        itemList.Clear();
+    }
+
     #endregion
 
 }
